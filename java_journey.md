@@ -54,3 +54,6 @@ This document outlines the Java programs and concepts I've learned so far.
 22. Decimal to Hexadecimal Conversion  
 
 ---
+## Arrays
+
+1.LinearSearch
