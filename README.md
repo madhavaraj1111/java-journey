@@ -58,3 +58,4 @@ This document outlines the Java programs and concepts I've learned so far.
 
 1. LinearSearch
 2. SmallestElement
+3. BubbleSort
