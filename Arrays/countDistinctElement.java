@@ -2,7 +2,28 @@ import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-class Codechef
+class countDistinctElement
+{
+	public static void main (String[] args) throws java.lang.Exception
+	{
+		int[] arr={5,8,5,8,7,10};
+		countDistinctElements(arr);
+	}
+	
+	static void countDistinctElements(int[] arr){
+	    if(arr.length==0){
+	        System.out.println("Array is empty");
+	        return;
+	    }
+	    
+	    Set<Integer> distinctElements = new HashSet<>();
+	    for(int num : arr){
+	        distinctElements.add(num);
+	    }
+	    
+	    System.out.println("Count of distinct elements: " + distinctElements.size());
+	}
+}
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{
