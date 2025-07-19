@@ -57,3 +57,28 @@ class Codechef
 	}
 	
 }
+
+// lazy delay method But with sorted Array
+
+import java.util.Arrays;
+class Codechef
+{
+	public static void main (String[] args)
+	{
+		int[] myArray={5,8,6,8,7,4,6,4,7,-4};
+		 countDisElem(myArray);
+	}
+	static void countDisElem(int[]arr){
+	    Arrays.sort(arr);
+	    int count=0;
+	    for(int i=0;i<arr.length;i++){
+	        while((i<arr.length-1)&&(arr[i]==arr[i+1])){
+	            i++;
+	        }
+	        
+	            count++;
+	    }
+	    System.out.println(count);
+	    
+	}
+}
