@@ -61,3 +61,6 @@ This document outlines the Java programs and concepts I've learned so far.
 3. BubbleSort
 4. Count Distinct Elements in Array 
 5. kth Smallest Element
+
+## Competitive codin
+1. Rotate Matrix by 90*(Loading)
