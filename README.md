@@ -63,4 +63,4 @@ This document outlines the Java programs and concepts I've learned so far.
 5. kth Smallest Element
 
 ## Competitive codin
-1. Rotate Matrix by 90*(Loading)
+1. Rotate Matrix by 90*(Rectangle , square)
