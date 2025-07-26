@@ -36,3 +36,42 @@ class Codechef
 	    System.out.println(Arrays.toString(newArr));
 	}
 }
+
+
+//Square Matrix
+
+import java.util.Arrays;
+class Codechef
+{
+	public static void main (String[] args)
+	{
+	     int[][]arr=new int[][]{{4,5,6},{7,8,9},{10,11,12}};
+	     transpose(arr);
+	}
+	
+	static void transpose(int[][]arr){
+	    for(int i=0;i<arr.length;i++){
+	        for(int j=i;j<arr[i].length;j++){
+	            int temp=arr[i][j];
+	            arr[i][j]=arr[j][i];
+	            arr[j][i]=temp;
+	        }
+	    }
+	    
+	    for(int[] elem:arr){
+	        reverseRow(elem);
+	        
+	    }
+	}
+	
+	static void reverseRow(int[]arr){
+	    int j=arr.length-1;
+	    for(int i=0;i<arr.length/2;i++){
+	        int temp=arr[i];
+	        arr[i]=arr[j];
+	        arr[j]=temp;
+	        j--;
+	    }
+	    System.out.println(Arrays.toString(arr));
+	}
+}
