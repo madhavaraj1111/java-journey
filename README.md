@@ -64,3 +64,4 @@ This document outlines the Java programs and concepts I've learned so far.
 
 ## Competitive codin
 1. Rotate Matrix by 90*(Rectangle , square)
+2. BinarySearch in 2D Arrays
