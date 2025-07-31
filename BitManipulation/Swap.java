@@ -12,4 +12,12 @@ public class Swap{
 	    System.out.println(a);
 	    System.out.println(b);
 	}
+
+	static void swapWithTemp(int a, int b){
+	    int temp=a;
+	    a=b;
+	    b=temp;
+	    System.out.println(a);
+	    System.out.println(b);
+	}
 }
