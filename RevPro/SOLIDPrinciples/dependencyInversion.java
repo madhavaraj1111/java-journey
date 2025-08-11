@@ -29,7 +29,10 @@ class CreditCard implements PaymentGateway{
 public class dependencyInversion{
     public static void main(String[]args){
     PaymentGateway paymentMethod=new DebitCard();
-    OrderProcessor processOrder=new OrderProcessor(paymentMethod);
-    processOrder.processOrder();
+    PaymentGateway paymentMethod2=new CreditCard();
+    OrderProcessor processOrder1=new OrderProcessor(paymentMethod);
+    OrderProcessor processOrder2=new OrderProcessor(paymentMethod2);
+    processOrder1.processOrder();
+    processOrder2.processOrder();
 }
 }
